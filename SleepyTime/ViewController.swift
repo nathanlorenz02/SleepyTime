@@ -186,8 +186,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate, SFS
                     let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
                     
                     let content = UNMutableNotificationContent()
-                    content.title = "It is BedTime"
-                    content.body =  "It is time to go to bed to get a full, good nights sleep."
+                    content.body =  "It's time to start heading to bed for a good nights sleep."
                     
                     
                     
